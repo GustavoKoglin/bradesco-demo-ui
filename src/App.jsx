@@ -73,6 +73,8 @@ const facilityFeatureIcons = {
   loans: HandCoins,
 }
 
+const OFFICIAL_BRADESCO_URL = 'https://banco.bradesco/html/classic/index.shtm'
+
 const socialBrandIcons = {
   linkedin: FaLinkedinIn,
   facebook: FaFacebookF,
@@ -357,7 +359,7 @@ function App() {
         </div>
 
         <nav className="main-nav" aria-label="Navegacao principal">
-          <div className="logo-wrap">
+          <a className="logo-wrap" href={OFFICIAL_BRADESCO_URL} aria-label="Ir para o site oficial do Bradesco">
             <img
               src={bradescoLogoOficial}
               alt={content.brand.logoAlt}
@@ -366,7 +368,7 @@ function App() {
               width="170"
               height="36"
             />
-          </div>
+          </a>
 
           <div className="nav-links desktop-nav">
             {content.nav.map((item) => (
@@ -969,14 +971,18 @@ function App() {
               <p>{content.legal.line2}</p>
             </div>
 
-            <div className="footer-brand" aria-label="Bradesco">
+            <a
+              className="footer-brand"
+              href={OFFICIAL_BRADESCO_URL}
+              aria-label="Ir para o site oficial do Bradesco"
+            >
               <img
                 src={bradescoLogoOficial}
                 alt="Bradesco"
                 width="150"
                 height="32"
               />
-            </div>
+            </a>
           </div>
 
           <div className="footer-divider" aria-hidden="true" />
