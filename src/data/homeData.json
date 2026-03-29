@@ -1,0 +1,493 @@
+{
+  "topBar": {
+    "cta": "Acessar sua conta",
+    "agencyLabel": "Agencia:",
+    "accountLabel": "Conta:",
+    "remember": "Lembrar-me",
+    "help": "Como usar",
+    "accessibility": "Acessibilidade"
+  },
+  "brand": {
+    "name": "bradesco",
+    "tagline": "Banco de experiencias financeiras",
+    "logoAlt": "Logo Bradesco"
+  },
+  "nav": [
+    { "id": "produtos", "label": "Produtos e servicos" },
+    { "id": "contas", "label": "Conta PF e PJ" },
+    { "id": "premium", "label": "Cartoes premium" },
+    { "id": "facilidades", "label": "Facilidades" },
+    { "id": "seguranca", "label": "Seguranca" },
+    { "id": "atendimento", "label": "Atendimento" }
+  ],
+  "topMenus": [
+    {
+      "key": "profiles",
+      "overline": "outros",
+      "title": "PERFIS",
+      "links": [
+        { "label": "Exclusive", "href": "#" },
+        { "label": "Prime", "href": "#" },
+        { "label": "Principal", "href": "#" },
+        { "label": "Global Private", "href": "#" },
+        { "label": "Mais opcoes", "href": "#" }
+      ]
+    },
+    {
+      "key": "enterprise",
+      "overline": "Pra sua",
+      "title": "EMPRESA",
+      "links": [
+        { "label": "Empresas e Negocios", "href": "#" },
+        { "label": "Bradesco Corporate", "href": "#" }
+      ]
+    }
+  ],
+  "heroSlides": [
+    {
+      "kicker": "Festival de Beneficios",
+      "title": "12x sem juros para voce viver experiencias unicas",
+      "description": "Condicoes especiais em viagens, cultura e entretenimento com o ecossistema Bradesco.",
+      "cta": "Quero aproveitar",
+      "highlight": "Parcelas a partir de R$ 76/mes",
+      "benefits": [
+        "Isencao de taxa de conveniencia",
+        "Entrada preferencial em eventos parceiros",
+        "Cashback progressivo no app"
+      ]
+    },
+    {
+      "kicker": "Credito Inteligente",
+      "title": "Cartoes feitos para cada momento da sua vida financeira",
+      "description": "Da rotina ao premium: compare beneficios, limite e anuidade direto no app.",
+      "cta": "Conhecer cartoes",
+      "highlight": "Aprovacao com jornada digital completa",
+      "benefits": [
+        "Simulacao de limite em tempo real",
+        "Cartao virtual para compras online",
+        "Gestao de gastos por categoria"
+      ]
+    }
+  ],
+  "quickActions": [
+    { "key": "debts", "label": "Renegocie suas dividas" },
+    { "key": "card", "label": "Peca seu cartao sem anuidade" },
+    { "key": "consortium", "label": "Simule seu consorcio" },
+    { "key": "dental", "label": "Contrate seu plano dental" },
+    { "key": "home", "label": "Proteja seu lar" },
+    { "key": "invest", "label": "Invista com a Agora" },
+    { "key": "options", "label": "Conheca mais opcoes" }
+  ],
+  "services": {
+    "title": "Produtos e servicos para agilizar seu dia",
+    "description": "Solucoes desenhadas para reduzir friccao, acelerar tarefas e manter voce no controle da sua rotina financeira.",
+    "cards": [
+      {
+        "key": "attendance",
+        "title": "Atendimento",
+        "text": "Fale por chat, telefone ou WhatsApp."
+      },
+      {
+        "key": "invoice",
+        "title": "2a via do boleto",
+        "text": "Emissao rapida com autenticacao segura."
+      },
+      {
+        "key": "payments",
+        "title": "Pagamentos",
+        "text": "Pix, boletos e agendamentos em um so lugar."
+      },
+      {
+        "key": "unlock",
+        "title": "Desbloqueio de cartao",
+        "text": "Ative em segundos sem ir a agencia."
+      },
+      {
+        "key": "renegotiate",
+        "title": "Renegociacao de dividas",
+        "text": "Simule e conclua com parcelas flexiveis."
+      },
+      {
+        "key": "security",
+        "title": "Seguranca",
+        "text": "Alertas em tempo real e protecao antifraude."
+      }
+    ]
+  },
+  "segments": {
+    "title": "Escolha sua conta ideal: PF ou PJ",
+    "description": "Experiencias diferentes para pessoas fisicas e negocios, com beneficios personalizados.",
+    "cards": [
+      {
+        "key": "pf",
+        "badge": "Conta PF",
+        "title": "Conta digital para sua rotina",
+        "text": "Pix sem tarifa, controle de gastos inteligente e investimentos para objetivos pessoais.",
+        "highlights": ["Cartao sem anuidade", "Investimentos automatizados", "Gestao por metas"]
+      },
+      {
+        "key": "pj",
+        "badge": "Conta PJ",
+        "title": "Conta empresarial para escalar seu negocio",
+        "text": "Fluxo de caixa em tempo real, cobranca integrada e credito com analise especializada.",
+        "highlights": ["Pix em lote", "Maquininhas e adquirencia", "Painel multiusuarios"]
+      }
+    ]
+  },
+  "facilities": {
+    "title": "Aqui tem ainda mais facilidade",
+    "description": "Descubra experiencias digitais que garantem mais conforto, seguranca e autonomia.",
+    "featuredCards": [
+      {
+        "key": "salaryPortability",
+        "title": "Portabilidade de Salario",
+        "text": "Traga seu salario para o Bradesco com jornada digital, sem burocracia.",
+        "cta": "Solicitar portabilidade"
+      },
+      {
+        "key": "loans",
+        "title": "Emprestimos",
+        "text": "Simule credito pessoal, consignado e antecipacao com taxas competitivas.",
+        "cta": "Simular emprestimo"
+      }
+    ],
+    "slides": [
+      {
+        "title": "App Bradesco",
+        "subtitle": "Experimente uma vida mais pratica",
+        "text": "Controle sua conta, invista e contrate servicos no mesmo fluxo."
+      },
+      {
+        "title": "Chave de seguranca",
+        "subtitle": "Transacoes protegidas em cada etapa",
+        "text": "Aprovacoes com biometria, token e analise de risco inteligente."
+      },
+      {
+        "title": "BIA no WhatsApp",
+        "subtitle": "Suporte 24h com linguagem natural",
+        "text": "Respostas imediatas para duvidas, pagamentos e servicos."
+      }
+    ]
+  },
+  "contacts": [
+    {
+      "title": "Informacoes uteis",
+      "subtitle": "SAC Alo Bradesco",
+      "value": "0800 704 8383"
+    },
+    {
+      "title": "Atendimento",
+      "subtitle": "Ouvidoria",
+      "value": "0800 727 9933"
+    },
+    {
+      "title": "Suporte digital",
+      "subtitle": "Fale com a BIA pelo WhatsApp",
+      "value": "11 3335 0237"
+    }
+  ],
+  "stats": {
+    "items": [
+      { "label": "Clientes", "value": "110,5", "unit": "milhões de clientes (aprox.)" },
+      { "label": "Ativos Totais", "value": "R$ 2,33", "unit": "trilhões (consolidado em 2025)" },
+      { "label": "Agências", "value": "2.900+", "unit": "agências físicas + vasta rede de correspondentes" },
+      { "label": "Fundação", "value": "83 anos", "unit": "fundado em 1943, marco em mar/2026" }
+    ]
+  },
+  "testimonials": {
+    "title": "O que nossos clientes dizem",
+    "description": "Histórias reais de quem confia no Bradesco para suas finanças.",
+    "items": [
+      {
+        "name": "Carolina Silva",
+        "role": "Empreendedora",
+        "text": "A conta digital do Bradesco simplificou meu dia a dia. Pix na hora, investimentos fáceis e suporte de qualidade.",
+        "rating": 5,
+        "avatar": "👩‍💼"
+      },
+      {
+        "name": "Marco Oliveira",
+        "role": "Executivo",
+        "text": "Com o app, controlo tudo do meu celular. Sem filas, sem burocracia. Bradesco realmente é moderno.",
+        "rating": 5,
+        "avatar": "👨‍💼"
+      },
+      {
+        "name": "Ana Costa",
+        "role": "Profissional Liberal",
+        "text": "Adorei a portabilidade de salário e os empréstimos sem juros abusivos. Recomendo muito!",
+        "rating": 5,
+        "avatar": "👩‍⚕️"
+      },
+      {
+        "name": "Bruno Rocha",
+        "role": "Investidor",
+        "text": "A Agora Investimentos junto com Bradesco me deu acesso a oportunidades que antes não tinha. Top demais!",
+        "rating": 5,
+        "avatar": "👨‍💻"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Por que escolher Bradesco?",
+    "description": "Soluções pensadas para facilitar sua vida financeira.",
+    "items": [
+      {
+        "key": "nocost",
+        "title": "Sem taxas",
+        "text": "Operações básicas sem nenhum custo. Seu dinheiro rende mais.",
+        "icon": "Zap"
+      },
+      {
+        "key": "fast",
+        "title": "Aprovação rápida",
+        "text": "Crédito, cartão e novas contas aprovadas em minutos. Sem espera.",
+        "icon": "Rocket"
+      },
+      {
+        "key": "secure",
+        "title": "Segurança 24/7",
+        "text": "Protegido por tecnologia avançada e monitoramento contínuo.",
+        "icon": "Shield"
+      },
+      {
+        "key": "modern",
+        "title": "100% Digital",
+        "text": "Banco na palma da sua mão. Tudo pelo app, quando quiser.",
+        "icon": "Smartphone"
+      }
+    ]
+  },
+  "maincta": {
+    "title": "Comece sua jornada financeira hoje",
+    "description": "Abra sua conta em menos de 10 minutos e comece a aproveitar todos os benefícios.",
+    "button": "Abrir minha conta agora"
+  },
+  "comparison": {
+    "title": "Encontre a solução certa para você",
+    "description": "Compare nossos produtos e escolha o melhor para seu perfil.",
+    "products": [
+      { "name": "Conta Digital", "detail": "Pix, pagamentos e app" },
+      { "name": "Cartão", "detail": "Compras e benefícios" },
+      { "name": "Investimentos", "detail": "Objetivos e rentabilidade" },
+      { "name": "Empréstimo", "detail": "Crédito sob demanda" }
+    ],
+    "profiles": [
+      {
+        "name": "Iniciante",
+        "summary": "Começando a organizar finanças",
+        "features": [true, false, false, false]
+      },
+      {
+        "name": "Ativo",
+        "summary": "Movimenta conta e busca benefícios",
+        "features": [true, true, true, false]
+      },
+      {
+        "name": "Investidor",
+        "summary": "Quer performance e crédito estratégico",
+        "features": [true, true, true, true]
+      }
+    ],
+    "notes": [
+      "Conta Digital é a base recomendada para todos os perfis.",
+      "Cartão e Investimentos ampliam vantagens no perfil Ativo.",
+      "Perfil Investidor tem acesso ao pacote completo, incluindo crédito."
+    ],
+    "cta": {
+      "label": "Quero uma recomendação personalizada",
+      "href": "#atendimento"
+    }
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "description": "Respostas para as dúvidas mais comuns sobre nossos serviços.",
+    "items": [
+      {
+        "question": "Como abro minha conta Bradesco Digital?",
+        "answer": "É muito fácil! Baixe o app ou acesse o site, preencha seus dados, faça uma selfie e pronto. Sua conta está criada em minutos, sem precisar ir a uma agência."
+      },
+      {
+        "question": "Qual é a taxa de manutenção da conta?",
+        "answer": "Nossa conta digital não possui taxa de manutenção. Você só paga pelas operações específicas, e a maioria é gratuita (Pix, transferências, etc)."
+      },
+      {
+        "question": "Como solicitar um empréstimo?",
+        "answer": "Pelo app ou pela web, acesse 'Crédito' e simule seu empréstimo. Você verá a taxa e as parcelas na hora. Se aprovar, o dinheiro cai na sua conta em até 2 horas."
+      },
+      {
+        "question": "Meus dados são seguros?",
+        "answer": "100%! Usamos criptografia de banco de dados, autenticação biométrica, e monitoramento 24/7 contra fraudes. Seu dinheiro está protegido."
+      },
+      {
+        "question": "Posso usar o Bradesco no exterior?",
+        "answer": "Sim! Com os cartões Bradesco (especialmente Infinite e American Express), você tem cobertura internacional com seguro viagem incluído."
+      },
+      {
+        "question": "Como cancelo minha conta?",
+        "answer": "Você pode solicitar o cancelamento pelo app em segundos. Não existem multas ou taxa de cancelamento. Seus dados serão apagados conforme LGPD."
+      }
+    ]
+  },
+  "security": {
+    "title": "Sua segurança é nossa prioridade",
+    "description": "Desenvolvemos múltiplas camadas de proteção para você ficar seguro.",
+    "features": [
+      {
+        "title": "Autenticação Biométrica",
+        "text": "Acesso seguro com impressão digital ou reconhecimento facial.",
+        "icon": "Fingerprint"
+      },
+      {
+        "title": "Criptografia End-to-End",
+        "text": "Seus dados são criptografados em toda a transmissão.",
+        "icon": "Lock"
+      },
+      {
+        "title": "Monitoramento 24/7",
+        "text": "Sistema IA detecta atividades suspeitas em tempo real.",
+        "icon": "AlertCircle"
+      },
+      {
+        "title": "Seguro contra Fraude",
+        "text": "Cobertura completa em caso de transações não autorizadas.",
+        "icon": "CheckCircle"
+      },
+      {
+        "title": "Conformidade LGPD",
+        "text": "Trabalhamos conforme Lei Geral de Proteção de Dados.",
+        "icon": "FileText"
+      },
+      {
+        "title": "Certificação PCI-DSS",
+        "text": "Padrão internacional de segurança para dados de cartão.",
+        "icon": "Award"
+      }
+    ]
+  },
+  "blog": {
+    "title": "Blog Bradesco",
+    "description": "Dicas, tendências e notícias sobre finanças e inovação.",
+    "posts": [
+      {
+        "title": "5 dicas para poupar sem abrir mão do conforto",
+        "category": "Finanças",
+        "date": "28 mar 2026",
+        "excerpt": "Aprenda estratégias inteligentes para economizar dinheiro e atingir seus objetivos financeiros.",
+        "image": "📊"
+      },
+      {
+        "title": "O futuro do open banking está aqui",
+        "category": "Inovação",
+        "date": "26 mar 2026",
+        "excerpt": "Entenda como o open banking está revolucionando o mercado financeiro e beneficiando você.",
+        "image": "🚀"
+      },
+      {
+        "title": "Guia completo do Pix: como usar da melhor forma",
+        "category": "Tutorial",
+        "date": "24 mar 2026",
+        "excerpt": "Conheça todos os recursos do Pix e como aproveitar ao máximo essa ferramenta de pagamento.",
+        "image": "💳"
+      }
+    ]
+  },
+  "partners": {
+    "title": "Nossos Parceiros",
+    "description": "Experiências exclusivas com nossos principais aliados.",
+    "logos": [
+      "🏨 Hotéis",
+      "✈️ Companhias Aéreas",
+      "🍽️ Restaurantes",
+      "🎭 Cultura & Entretenimento",
+      "🏥 Saúde & Bem-estar",
+      "🛍️ E-commerce",
+      "🚗 Aluguel de Carros",
+      "🎓 Educação"
+    ]
+  },
+  "timeline": {
+    "title": "Nossa Trajetória",
+    "description": "Fundado em 1943, o Bradesco completou 83 anos em março de 2026.",
+    "events": [
+      {
+        "year": "1943",
+        "title": "Fundação",
+        "description": "Banco Bradesco é fundado em Marília, SP"
+      },
+      {
+        "year": "1985",
+        "title": "Primeira Agência Digital",
+        "description": "Inovação em atendimento bancário"
+      },
+      {
+        "year": "2010",
+        "title": "Era Mobile",
+        "description": "Lançamento do app Bradesco primeiro do mercado"
+      },
+      {
+        "year": "2018",
+        "title": "Open Banking",
+        "description": "Integração com ecossistema de fintech"
+      },
+      {
+        "year": "2025",
+        "title": "IA & Personalisation",
+        "description": "Experiências financeiras 100% personalizadas"
+      }
+    ]
+  },
+  "footerSocial": [
+    { "label": "LinkedIn", "icon": "linkedin", "href": "https://www.linkedin.com/company/bradesco" },
+    { "label": "Facebook", "icon": "facebook", "href": "https://www.facebook.com/Bradesco" },
+    { "label": "X", "icon": "x", "href": "https://x.com/bradesco" },
+    { "label": "YouTube", "icon": "youtube", "href": "https://www.youtube.com/bradesco" },
+    { "label": "Instagram", "icon": "instagram", "href": "https://www.instagram.com/bradesco" },
+    { "label": "TikTok", "icon": "tiktok", "href": "https://www.tiktok.com/@bradesco" }
+  ],
+  "footerInlineLinks": [
+    { "label": "Sobre o Bradesco", "href": "#sobre-o-bradesco" },
+    { "label": "Bradesco imprensa", "href": "#bradesco-imprensa" },
+    { "label": "Trabalhe conosco", "href": "#trabalhe-conosco" },
+    { "label": "Seguranca", "href": "#seguranca" },
+    { "label": "Integridade", "href": "#integridade" },
+    { "label": "Relacao com investidores", "href": "#relacao-com-investidores" },
+    { "label": "Sustentabilidade", "href": "#sustentabilidade" },
+    { "label": "Fundeb", "href": "#fundeb" },
+    { "label": "Preferencia cookies", "href": "#preferencia-cookies" }
+  ],
+  "footerLinks": [
+    {
+      "title": "Informacoes uteis",
+      "links": [
+        { "label": "Central de ajuda", "href": "#" },
+        { "label": "Tarifas", "href": "#" },
+        { "label": "Canais digitais", "href": "#" },
+        { "label": "Seguranca", "href": "#seguranca" }
+      ]
+    },
+    {
+      "title": "Institucional",
+      "links": [
+        { "label": "Sobre o Bradesco", "href": "#" },
+        { "label": "Bradesco imprensa", "href": "#" },
+        { "label": "Carreiras", "href": "#" },
+        { "label": "Relacao com investidores", "href": "#" },
+        { "label": "Sustentabilidade", "href": "#" }
+      ]
+    },
+    {
+      "title": "Privacidade",
+      "links": [
+        { "label": "Politica de privacidade", "href": "#" },
+        { "label": "Preferencia de cookies", "href": "#" },
+        { "label": "LGPD", "href": "#" },
+        { "label": "Termos de uso", "href": "#" }
+      ]
+    }
+  ],
+  "legal": {
+    "line1": "Banco Bradesco SA | CNPJ: 60.746.948.0001-12",
+    "line2": "Cidade de Deus, s/n, Vila Yara, Osasco, SP, CEP 06029-900"
+  }
+}
