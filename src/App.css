@@ -447,15 +447,17 @@ footer {
   contain-intrinsic-size: 1px 700px;
 }
 
-.hero-section {
+.hero-wrapper {
   position: relative;
   margin: 18px clamp(10px, 2vw, 28px) 0;
+  width: calc(100% - clamp(20px, 4vw, 56px));
+}
+
+.hero-section {
+  position: relative;
   overflow: hidden;
   border-radius: 26px;
   box-shadow: var(--shadow-soft);
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
-  align-items: stretch;
   width: 100%;
   max-width: 100%;
 }
@@ -536,12 +538,27 @@ footer {
 }
 
 .carousel-control {
-  width: 42px;
-  background: rgba(10, 10, 10, 0.36);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  background: rgba(10, 10, 10, 0.42);
   color: #fff;
   display: grid;
   place-items: center;
   transition: background 0.2s ease;
+  z-index: 10;
+  border: 1.5px solid rgba(255,255,255,0.18);
+}
+
+.carousel-prev {
+  left: 14px;
+}
+
+.carousel-next {
+  right: 14px;
 }
 
 .carousel-control:disabled,
@@ -1200,9 +1217,8 @@ footer {
 
 .footer-inline-nav {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 8px;
 }
 
@@ -2342,8 +2358,8 @@ footer {
   }
 
   .footer-inline-nav {
-    gap: 6px 8px;
-    justify-content: center;
+    gap: 6px;
+    align-items: center;
   }
 
   .footer-inline-nav a {

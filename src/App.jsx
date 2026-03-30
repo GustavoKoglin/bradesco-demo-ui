@@ -1,4 +1,4 @@
-﻿import { createElement, useEffect, useMemo, useState } from 'react'
+import { createElement, useEffect, useMemo, useState } from 'react'
 import {
   Accessibility,
   AlertCircle,
@@ -470,10 +470,49 @@ function App() {
       </AnimatePresence>
 
       <main id="conteudo-principal">
-        <section className="hero-section" aria-label="Destaques">
+        <div className="hero-wrapper">
+          <section className="hero-section" aria-label="Destaques">
+            <Motion.article
+              className="hero-slide"
+              key={currentHero.title}
+              initial={{ opacity: 0, y: prefersReducedMotion ? 0 : 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: prefersReducedMotion ? 0 : 0.35 }}
+            >
+              <div className="hero-left">
+                <p className="kicker">{currentHero.kicker}</p>
+                <h1>{currentHero.title}</h1>
+                <p>{currentHero.description}</p>
+                <button type="button" className="primary-btn">
+                  {currentHero.cta}
+                </button>
+              </div>
+              <div className="hero-right">
+                <p className="highlight">{currentHero.highlight}</p>
+                {currentHero.benefits.map((benefit) => (
+                  <p key={benefit}>+ {benefit}</p>
+                ))}
+              </div>
+            </Motion.article>
+
+            <div className="dots" role="tablist" aria-label="Trocar slide principal">
+              {heroSlides.map((slide, index) => (
+                <button
+                  key={slide.title}
+                  type="button"
+                  className={`dot ${heroIndex === index ? 'active' : ''}`}
+                  onClick={() => setHeroIndex(index)}
+                  aria-label={`Ir para slide ${index + 1}`}
+                  aria-selected={heroIndex === index}
+                  role="tab"
+                />
+              ))}
+            </div>
+          </section>
+
           <button
             type="button"
-            className="carousel-control"
+            className="carousel-control carousel-prev"
             onClick={prevHero}
             aria-label="Slide anterior"
             disabled={heroSlides.length <= 1}
@@ -481,53 +520,16 @@ function App() {
             <ArrowLeft size={18} aria-hidden="true" />
           </button>
 
-          <Motion.article
-            className="hero-slide"
-            key={currentHero.title}
-            initial={{ opacity: 0, y: prefersReducedMotion ? 0 : 8 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: prefersReducedMotion ? 0 : 0.35 }}
-          >
-            <div className="hero-left">
-              <p className="kicker">{currentHero.kicker}</p>
-              <h1>{currentHero.title}</h1>
-              <p>{currentHero.description}</p>
-              <button type="button" className="primary-btn">
-                {currentHero.cta}
-              </button>
-            </div>
-            <div className="hero-right">
-              <p className="highlight">{currentHero.highlight}</p>
-              {currentHero.benefits.map((benefit) => (
-                <p key={benefit}>+ {benefit}</p>
-              ))}
-            </div>
-          </Motion.article>
-
           <button
             type="button"
-            className="carousel-control"
+            className="carousel-control carousel-next"
             onClick={nextHero}
             aria-label="Proximo slide"
             disabled={heroSlides.length <= 1}
           >
             <ArrowRight size={18} aria-hidden="true" />
           </button>
-
-          <div className="dots" role="tablist" aria-label="Trocar slide principal">
-            {heroSlides.map((slide, index) => (
-              <button
-                key={slide.title}
-                type="button"
-                className={`dot ${heroIndex === index ? 'active' : ''}`}
-                onClick={() => setHeroIndex(index)}
-                aria-label={`Ir para slide ${index + 1}`}
-                aria-selected={heroIndex === index}
-                role="tab"
-              />
-            ))}
-          </div>
-        </section>
+        </div>
 
         <section className="quick-actions" aria-label="Acesso rapido">
           {quickActions.map((action) => {
