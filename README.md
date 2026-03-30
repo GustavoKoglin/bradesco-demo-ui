@@ -289,3 +289,164 @@ dist
 ### Notes
 - This project uses demo content for UI/UX and prototyping purposes.
 - It does not include real authentication, real financial transactions, or a proprietary backend.
+
+---
+
+---
+
+# 📋 Case Study — Bradesco UI Redesign
+
+> A conceptual UX redesign of the Bradesco banking homepage, focused on usability, visual hierarchy, and modern digital banking experience.
+
+---
+
+## 🎯 Objetivo / Goal
+
+**PT-BR:** Reimaginar a interface pública do site do Bradesco com foco em clareza visual, hierarquia de informação e fluxos mais intuitivos — mantendo a identidade da marca, mas elevando a experiência do usuário ao padrão atual de bancos digitais modernos.
+
+**EN:** Reimagine the public Bradesco website interface with a focus on visual clarity, information hierarchy, and more intuitive flows — preserving brand identity while elevating the user experience to the standard of modern digital banks.
+
+---
+
+## 🔍 Análise do Site Oficial / Official Site Analysis
+
+As capturas abaixo mostram o site oficial como ponto de partida da análise.
+*(The screenshots below show the official site as the starting point for analysis.)*
+
+| | |
+|:---:|:---:|
+| ![Bradesco Oficial — Hero e Navegação](public/imgs/Bradesco1.png) | ![Bradesco Oficial — Menu Lateral](public/imgs/Bradesco2.png) |
+| Hero com menu lateral sobreposto | Navegação densa e segmentação confusa |
+| ![Bradesco Oficial — Seção de Produtos](public/imgs/Bradesco3.png) | ![Bradesco Oficial — Conteúdo Adicional](public/imgs/Bradesco4.png) |
+| Seção de produtos com baixa hierarquia visual | Conteúdo extenso sem escaneabilidade |
+
+**Pontos de atenção identificados / Issues identified:**
+- 🔴 Menu lateral sobrepõe o conteúdo principal logo no carregamento
+- 🔴 Top bar com múltiplos campos de acesso gera ruído visual
+- 🔴 Hierarquia tipográfica inconsistente entre seções
+- 🔴 Densidade de informação elevada sem breathing room
+- 🔴 Falta de separação clara entre segmentos (PF / PJ)
+- 🔴 CTA principal diluído entre vários elementos concorrentes
+
+---
+
+## ✅ Solução Proposta / Proposed Solution
+
+A reimaginação manteve a paleta de vermelho e rosa do Bradesco, mas reestruturou a arquitetura da página para priorizar clareza e fluxo.
+*(The redesign kept Bradesco's red and pink palette but restructured the page architecture to prioritize clarity and flow.)*
+
+| | |
+|:---:|:---:|
+| ![Redesign — Hero e Navegação](public/imgs/Bradesco5.png) | ![Redesign — Ações Rápidas](public/imgs/Bradesco6.png) |
+| Hero limpo com navegação horizontal integrada | Ações rápidas com ícones contextuais e espaçamento generoso |
+| ![Redesign — Produtos e Serviços](public/imgs/Bradesco7.png) | ![Redesign — Segmentos de Conta](public/imgs/Bradesco8.png) |
+| Seção de produtos com hierarquia e respiro visual | Segmentação PF/PJ clara e direta |
+| ![Redesign — Seções de Conteúdo](public/imgs/Bradesco9.png) | ![Redesign — Rodapé e Parceiros](public/imgs/Bradesco10.png) |
+| Seções adicionais com layout escanável | Rodapé organizado com links institucionais e parceiros |
+
+---
+
+## 🔄 Comparação Direta / Direct Comparison
+
+| Dimensão | Antes (Oficial) | Depois (Redesign) |
+|----------|----------------|-------------------|
+| **Navegação** | Menu lateral sobreposto, confuso | Navegação horizontal clara e integrada |
+| **Hierarquia visual** | Inconsistente entre seções | Tipografia e espaçamento padronizados |
+| **CTAs** | Diluídos entre muitos elementos | Destacados e com propósito claro |
+| **Densidade de informação** | Alta, sem breathing room | Balanceada, com respiro entre blocos |
+| **Segmentação PF/PJ** | Pouco clara na estrutura principal | Seção dedicada, visualmente destacada |
+| **Mobile** | Layout complexo em telas menores | Responsivo por design, drawer animado |
+| **Acessibilidade** | Limitada | Painel nativo: contraste, fonte, skip link |
+| **Fluxo do usuário** | Múltiplos pontos de entrada conflitantes | Fluxo guiado com progressão lógica |
+
+---
+
+## ⚙️ Implementação Técnica / Technical Implementation
+
+O projeto foi desenvolvido com:
+*(The project was built with:)*
+
+- **React 19** — Componentização modular e reutilizável
+- **Vite** — Build tool de alta performance
+- **Framer Motion** — Animações fluidas e responsivas ao `prefers-reduced-motion`
+- **Lucide React + React Icons** — Iconografia consistente
+- **CSS custom properties** — Design system sem dependência de framework
+
+Com foco em / With focus on:
+
+- ⚡ **Performance** — Bundle otimizado, fallback local para conteúdo
+- 📐 **Escalabilidade** — Dados via JSON / API, sem acoplar UI a fonte de dados
+- 📱 **Responsividade** — Layouts adaptados para mobile, tablet e desktop
+- ♿ **Acessibilidade** — `aria-*`, foco visível, alto contraste, skip link
+
+---
+
+## 🤖 Uso de Inteligência Artificial / AI-Assisted Development
+
+A IA foi utilizada como acelerador de produtividade ao longo do projeto:
+*(AI was used as a productivity accelerator throughout the project:)*
+
+- 🧪 Prototipação acelerada de componentes e estruturas de dados
+- 🏗️ Apoio na arquitetura de componentes e organização de JSON
+- ⚡ Otimização do fluxo de desenvolvimento e revisão de código
+- 🎨 Sugestões de consistência visual e melhorias de UX
+- 🐛 Depuração e refatoração de lógica de renderização
+
+> 👉 **Resultado:** velocidade de entrega significativamente maior sem comprometer a qualidade técnica ou a fidelidade ao design system.
+
+---
+
+## 📊 Impacto Estimado / Estimated Impact
+
+Com base nas melhorias aplicadas / Based on improvements applied:
+
+| Métrica | Estimativa |
+|---------|-----------|
+| ⏱️ Tempo de execução de tarefas | Redução de ~30% |
+| 🧠 Carga cognitiva | Redução significativa (menos ruído visual) |
+| 🚀 Fluidez de navegação | Melhora perceptível em todos os fluxos |
+| ♿ Cobertura de acessibilidade | Painel completo implementado |
+| 📱 Suporte mobile | Layout responsivo por design |
+
+> ⚠️ *Valores estimados com base em princípios de UX e heurísticas de Nielsen. Não derivam de testes com usuários reais.*
+
+---
+
+## 🚀 Resultado Final / Final Result
+
+Uma experiência mais moderna, intuitiva e eficiente — alinhada com as expectativas atuais de usuários digitais, especialmente em contextos financeiros onde **clareza e confiança são essenciais**.
+
+| | |
+|---|---|
+| 🔗 **Demo ao vivo** | https://bradesco-demo-ui.vercel.app/ |
+| 💻 **Repositório** | https://github.com/GustavoKoglin/bradesco-demo-ui |
+
+---
+
+## 📌 Aprendizados / Key Takeaways
+
+- 💡 **Simplicidade é um diferencial competitivo** — menos elementos, mais foco
+- 🔐 **UX impacta diretamente a percepção de confiança** — especialmente em bancos
+- 🏗️ **Componentização modular** acelera iteração sem sacrificar consistência
+- 🤖 **IA como ferramenta, não substituto** — a direção criativa e as decisões de produto continuam sendo humanas
+- 📐 **Design systems escalam** — custom properties e tokens visuais reduzem inconsistências
+
+---
+
+## ⚠️ Disclaimer
+
+Este projeto é um **estudo de caso conceitual**, desenvolvido exclusivamente para fins de portfólio e demonstração de habilidades em UI/UX e desenvolvimento frontend. Não possui vínculo com sistemas, dados ou decisões internas do Bradesco S.A.
+
+*This project is a **conceptual case study**, developed exclusively for portfolio and frontend skill demonstration purposes. It has no affiliation with Bradesco S.A.'s systems, data, or internal decisions.*
+
+---
+
+## 🌐 Portfólio / Portfolio
+
+**Gustavo Koglin** — Frontend Developer & UX-minded Engineer
+
+Este é um dos projetos presentes no meu portfólio. Lá você encontra outros estudos de caso, projetos full-stack e experimentos de UI/UX.
+
+*(This is one of several projects in my portfolio, where you'll find other case studies, full-stack projects, and UI/UX experiments.)*
+
+🔗 https://www.devgustavokoglin.com.br/
