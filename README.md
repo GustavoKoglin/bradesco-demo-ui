@@ -308,25 +308,24 @@ dist
 
 ---
 
-## 🔍 Análise do Site Oficial / Official Site Analysis
+## 🔍 Contexto e Ponto de Partida / Official Site Context
 
-As capturas abaixo mostram o site oficial como ponto de partida da análise.
-*(The screenshots below show the official site as the starting point for analysis.)*
+As capturas abaixo apresentam a interface oficial do Bradesco como base inicial para este estudo.
+*(The screenshots below present the official Bradesco interface as the starting point for this study.)*
 
 | | |
 |:---:|:---:|
 | ![Bradesco Oficial — Hero e Navegação](public/imgs/Bradesco1.png) | ![Bradesco Oficial — Menu Lateral](public/imgs/Bradesco2.png) |
-| Hero com menu lateral sobreposto | Navegação densa e segmentação confusa |
+| Visão Desktop com Menu Lateral Fixo | Grade de Ações e Atendimento |
 | ![Bradesco Oficial — Seção de Produtos](public/imgs/Bradesco3.png) | ![Bradesco Oficial — Conteúdo Adicional](public/imgs/Bradesco4.png) |
-| Seção de produtos com baixa hierarquia visual | Conteúdo extenso sem escaneabilidade |
+| Seção de App e Segmentação de Conta | Detalhamento e Rodapé Institucional |
 
-**Pontos de atenção identificados / Issues identified:**
-- 🔴 Menu lateral sobrepõe o conteúdo principal logo no carregamento
-- 🔴 Top bar com múltiplos campos de acesso gera ruído visual
-- 🔴 Hierarquia tipográfica inconsistente entre seções
-- 🔴 Densidade de informação elevada sem breathing room
-- 🔴 Falta de separação clara entre segmentos (PF / PJ)
-- 🔴 CTA principal diluído entre vários elementos concorrentes
+**Oportunidades de Modernização / Modernization Opportunities:**
+- 💡 **Otimização de Navegação**: Oferecer uma navegação mais centralizada, reduzindo a concorrência visual do menu lateral fixo (Desktop).
+- 💡 **Simplificação de Fluxo**: Consolidar os campos de login direto em um ponto de entrada único, alinhado aos padrões modernos de segurança e UX.
+- 💡 **Hierarquia Visual**: Refinar o uso de tipografia e espaços (whitespace) para guiar o olhar de forma intuitiva durante a rolagem.
+- 💡 **Destaque de Segmentos**: Tornar a diferenciação entre contas Pessoa Física (PF) e Pessoa Jurídica (PJ) mais explícita e direta no fluxo principal.
+- 💡 **Uniformidade**: Padronizar elementos visuais entre seções para uma experiência de marca mais coesa.
 
 ---
 
